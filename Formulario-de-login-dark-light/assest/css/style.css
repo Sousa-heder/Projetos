@@ -29,7 +29,7 @@
     justify-content: center;
 }
 
-#login-form {
+#login_form {
     background-color: var(--color--light-50);
     display: flex;
     flex-direction: column;
@@ -141,4 +141,13 @@
 
 #login-button:hover {
     transform: scale(1.02);
+}
+.dark#form_login {
+    color: var(--color--light-50);
+    background-color: var(--color--dark-100);
+}
+
+.dark#form_login .input-field input,
+.dark#form_login .input-field i {
+    color: var(--color--light-50) ;  
 }
