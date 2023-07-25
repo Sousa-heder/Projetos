@@ -39,6 +39,7 @@ main {
     top: 54.5%;
     right: 27%;
     font-size: clamp(8px, 5vw, 25px);
+     /* aprendendo a usar a tag clamp, para conseguir controlar a responsividade melhor do site. */
 }
 
 .pokemon__name {
